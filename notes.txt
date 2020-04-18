@@ -13,6 +13,10 @@ To create a new branch called 'abhi_init_commit':
 -------------------------------------------------
 git checkout -b abhi_init_commit
 
+To change your local branch to an existing branch:
+--------------------------------------------------
+git checkout <branch_name>
+
 To edit the 'README.md' file:
 -----------------------------
 vi README.md
@@ -41,7 +45,8 @@ When you are doing a 'git push' for the first time, an upstream has to be set to
 --------------------------------------------------------------------------------------------------------------------------------------
 git push --set-upstream origin abhi_init_commit
 
+To pull changes from remote repo to your local repo:
+----------------------------------------------------
 git pull
+--> You need to do a 'git pull' every time you want to make a change to the same branch
 
-pulls changes from remote repo to your local repo
---------------------------------------------------
