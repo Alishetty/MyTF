@@ -41,3 +41,7 @@ When you are doing a 'git push' for the first time, an upstream has to be set to
 --------------------------------------------------------------------------------------------------------------------------------------
 git push --set-upstream origin abhi_init_commit
 
+git pull
+
+pulls changes from remote repo to your local repo
+--------------------------------------------------
