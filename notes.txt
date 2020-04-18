@@ -1,0 +1,43 @@
+Following is the sequence of steps:
+
+To do a git clone:
+-------------------
+git clone git@github.com:Alishetty/MyTF.git
+--> Here we used HTTPS link to go a git clone
+
+Changing the directory to 'MyTF':
+---------------------------------
+cd MyTF
+
+To create a new branch called 'abhi_init_commit':
+-------------------------------------------------
+git checkout -b abhi_init_commit
+
+To edit the 'README.md' file:
+-----------------------------
+vi README.md
+
+To view the branches on the remote repository:
+----------------------------------------------
+git branch -a
+
+To view the files we changed:
+------------------------------
+git status
+
+To add the modified files to the branch:
+---------------------------------------- 
+git add README.md
+
+To commit the modified files(this is also called staging):
+----------------------------------------------------------
+git commit -m "my initial commit"
+
+To push your changes from your local repository to the remote repository on github:
+-----------------------------------------------------------------------------------
+git push
+
+When you are doing a 'git push' for the first time, an upstream has to be set to your branch that you created on the local repository:
+--------------------------------------------------------------------------------------------------------------------------------------
+git push --set-upstream origin abhi_init_commit
+
